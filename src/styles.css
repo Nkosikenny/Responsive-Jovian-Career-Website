@@ -1,0 +1,145 @@
+
+:root{
+  font-size: 16px;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: "roboto",sans-serif;
+    font-size:1rem;
+    color: #444444;
+    
+}
+
+.navbar{
+    padding: 8px;
+    margin: 0;
+}
+
+.banner{
+   width: 100%;
+}
+h1{
+    text-align: center;
+    color: #222222;
+    font-family: "inter",sans-serif;
+    font-size: 2.5rem;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    
+}
+.description{
+    padding: 8px;
+    max-width: 30%;
+    margin-left:18%;
+    
+}
+.team-image{
+    /*background-color: bisque;*/
+    width: 100%;
+    
+}
+h2{
+    text-align: center;
+    font-family: "inter",sans-serif;
+    font-size: 2rem;
+    color: #222222;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #0f40a8;
+}
+
+a:hover,a:focus{
+    color: #89a5e2;
+}
+
+.jobs-section{
+    max-width: 65%;
+    margin-left: 15%;
+}
+table{
+    width:100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: center;
+    border:1px solid gray;
+    background-color:aliceblue;
+    color: #222222;
+}
+
+tr:nth-child(odd){
+    background-color: #eff6ff;
+}
+
+td{
+    border: 1px solid gray;
+    padding: 6px;
+    font-size: 0.875rem;
+}
+
+#td-remote{
+    text-align: center;
+}
+
+.application-form{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label{
+    font-weight: 600;
+}
+
+form input,select,textarea,button{
+    font-size: 1.25rem;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+textarea{
+    width: 100%;
+}
+
+button{
+    width: 20%;
+    background-color:#89a5e2;
+}
+
+footer{
+    background-color: #FAFAFA;
+    margin-top: 32px;
+    text-align:center;
+    padding: 8px;
+
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright{
+    color: gray;
+}
